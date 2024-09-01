@@ -1,0 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+.env
+*.db
+*.sqlite3
+venv/
+.env/
+.venv/
+
+instance
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Celery
+celerybeat-schedule
+*.pid
+
+# IDEs/Editors
+.vscode/
+.idea/
+
+# Output folders
+output/
+processed_images/
+uploads/
